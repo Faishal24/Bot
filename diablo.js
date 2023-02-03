@@ -38,15 +38,15 @@ global.packname = ''
 global.author = '❶cak Ⓤnofficial'
 global.prefa = ['','.']
 global.mess = {
-    wait: 'Tunggu Bwanhh!!',
-    succes: 'Gimana Bwanh?',
-    admin: 'Emang Lu Admin??',
-    botAdmin: 'Bot Belum Admin Kocak',
-    owner: 'Lu Siapa Kocak?',
-    group: 'Khusus Grup bwanh',
-    private: 'Khusus Privat bwanh',
+    wait: 'Tunggu',
+    succes: 'Sukses',
+    admin: 'Ente Admin?',
+    botAdmin: 'Bot Belum Admin',
+    owner: 'Ente Siapa?',
+    group: 'Khusus Grup',
+    private: 'Khusus Private',
     bot: 'Bot Number User Special Features!!!',
-    error: 'Error Sis, Please Chat Owner...',
+    error: 'Error, Please Chat Owner...',
 }
 module.exports = diablo = async (diablo, diablobotwhatsapp, chatUpdate, store) => {
 try {
