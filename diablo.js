@@ -298,8 +298,6 @@ let buttons = [
                     headerType: 4
                 }
                 diablo.sendMessage(diablobotwhatsapp.chat, buttonMessage, { quoted: diablobotwhatsapp })
-buffer = await getBuffer('https://d.top4top.io/m_2573kf3tb0.mp3')
-await diablo.sendMessage(diablobotwhatsapp.chat, { audio: buffer, ptt: true, mimetype: 'audio/mpeg' }, { quoted: diablobotwhatsapp })
             }
             break
 case 'bug':
